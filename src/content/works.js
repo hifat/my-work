@@ -18,7 +18,7 @@ export default [
    {
       id: UUID.generate(),
       title: "Car Booking",
-      detail: "Web application for booking car in my university. Designed to fit my college car booking process. All bookings must be approved by the person in charge of the project. There is a back-end system where admins can manage car reservations and report data (Charts) that can be viewed annually, monthly and weekly.",
+      detail: "Web application for booking car in my university. Designed to fit my college car booking process. All bookings must be approved by the person in charge of the project. There is a back-end system where admins can manage car reservations and report data (Charts) that can be viewed weekly, monthly and annually.",
       technologies: "Laravel(RESTful API ), Sanctum, MySQL, Vue, Vuetify",
       repo: "",
       images: [
