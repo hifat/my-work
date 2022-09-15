@@ -38,6 +38,7 @@ function activeSlide(workID, imgID) {
 <template>
    <section class="card mx-auto max-w-3xl">
       <h2 class="text-4xl text-center tracking-wide font-extrabold leading-loose mb-2">My Work</h2>
+      <p class="my-10 indent-10">Hi My name is Noei. I am a new graduate. Who is passionate about studying web technologies and spends his free time practicing web development skills</p>
       <div v-for="work in works" :key="work.id" class="mb-20">
          <h3 class="text-2xl font-semibold mb-6">{{ work.title }}</h3>
          <div class="shadow-md relative">
@@ -62,7 +63,7 @@ function activeSlide(workID, imgID) {
                </div>
             </div>
          </div>
-         <p class="text-lg mt-10">Detail: {{ work.detail }}</p>
+         <p class="text-lg mt-10 text-justify indent-10">{{ work.detail }}</p>
          <p class="text-lg text-gray-400">Technologies: {{ work.technologies }}</p>
          <div class="text-lg mt-4">
             Repository:

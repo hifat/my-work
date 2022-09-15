@@ -4,13 +4,13 @@ export default [
    {
       id: UUID.generate(),
       title: "Go Todo Hexagonal",
-      detail: "Web todo API for tasks checklist. use hexagon architecture",
-      technologies: "Gin-gonic, JWT, Zaplog, MySQL",
+      detail: "Web todo API for tasks checklist. It is the first work created after studying golang. This work uses Hexagonal Architecture, Authentication with JWT, Zlog to display logs, and GORM to manage data in DB.",
+      technologies: "Gin-gonic, JWT, Zaplog, GORM, MySQL",
       repo: "https://github.com/hifat/go-todo-hexagonal",
       images: [
          {
             id: UUID.generate(),
-            link: "https://lh3.googleusercontent.com/drive-viewer/AJc5JmQSxaQ8s6NSxHqkEVvbZvNHlxtPUjNhX5k50b9sCAviT5A8Rw8o9AUawRvmr2ZXkNBH6C9ny-U=w1919-h1006",
+            link: "https://lh3.googleusercontent.com/fife/AAbDypCbkC1yyWk0hOpWv31uZda-fDY9VBaj32T5MC_g-cvjJoV2_n3BztxtMLDDXUoeAMuGoDMee1wQGjTleLbXMD4-DgZoI_3RHYFrAK0aHGVOfuSTo2Nz-PtGDvxMeHWg5y87gEsd_fG0uXTFqihHyazqXxQyPNAs1Sc0F5mOZi-k2YK0rXpFVD9edVzSox3K41GzYq0KyjNKRxo8q5-rwd0KomfoMbe81C-1mcnfsmw-afuuJK2lpgCVq1MjPHAqNxUecjc-yH9-uEhXGil3gc4ZCNI01Oz149MPYKrPiVkqra7Gr16tu4Pj9TkTgzA6zYUFlgl70NlWLdmFJB6Qj_YQBNaXu4_KCrNT8Pfv9BSq4RpPDkiPOQ7ccI5YzTtiwyj_xvFmKsYDjoRcqQRJdAztaAWrjIDr680qnG0lZDqQNuRYjR93eGsvUg4H5barTZvUxjIotW72j4937izu_NSVuP-kIL5iCElzVaEyiA1O3qV_U1pN1l3T-ft9NlmZRAVqk3HfvRzCb4_y2ECJZT5tkkyHDzPjBpjNFFZCLpvVw4p5V2PuMPPg8P4gQ1BIDzFpPEff_Nnrvya3gjx0Q1YHHI6gzFMVayKvjbmXro-Tv46JWYmNnvoPf58gNAVpJr_sxHNI59y5sCuhATFg1dkuCOriB0SlNLtAI8rCXf71CU8UfUx4_MYaQ2m1xZXt230s9-jiGKcOEIaSJYVLZNwFDP4pMfCdJM2YeTt_NXfbjwfSDvBYnJpryaHttpEASuzA11lRf2agVTxl552Xgmo7yOY9t0wfrp1Wv0SEjMUu16sHS8j_hf0uY1kpIrtLZ6IdElOg_hRNMBFtyxb89xSiiIkPXKz-xyPz1_Qdr-dInwO4BRZ4G5m0DoIJJvlPyEowHLPQfRPyP7u9xkny1EaZbVg4JayTqG1wOrBKQ44iDA2yzcYFtZSn0a8P05Bb9VU2KfDOca2jtLlQ7iE0RZTVhxmfiIWwA99iYEAao0VsKi0yqM06GacLGwJnuzNVzrvUKaowXdSWlUQFieXSTK11lHiJgPUOLVf_Mur4GoTIt6KKxv74F58M9D_8X7yj7mJrfiPS3QLKOPo2PytJhIoRhjoErDzbc_Tcr6XzQ27oN5CvmhkWvKjM4nIaKSqcgZZjSf0CGOTP3sDKYEpxO2CEIXTqmEfJJG9ILA7O7OPV9gdZ6PvNEKO2zl9TXHMpToU91IWKVO-Zz5Zj67HGCEYERfnMxx1ABpgnE5Sjdogynl1yfs8cgpR0-p5U8W37VwaurTmZr2LoYvNJ023Qbq-UQrvp7dHcNw=w1920-h1011",
             active: true
          },
       ]
@@ -18,7 +18,7 @@ export default [
    {
       id: UUID.generate(),
       title: "Car Booking",
-      detail: "Web application for booking car in my university.",
+      detail: "Web application for booking car in my university. Designed to fit my college car booking process. All bookings must be approved by the person in charge of the project. There is a back-end system where admins can manage car reservations and report data (Charts) that can be viewed annually, monthly and weekly.",
       technologies: "Laravel(RESTful API ), Sanctum, MySQL, Vue, Vuetify",
       repo: "",
       images: [
@@ -47,7 +47,7 @@ export default [
    {
       id: UUID.generate(),
       title: "Sarfile",
-      detail: "Web application for quality assurance evidence file upload in my university.",
+      detail: "Web application for quality assurance evidence file upload in my university. Each year there is an assessment to assure the quality of the university. Therefore, various evidence files must be presented to the assessor. Each year representatives of each faculty or branch will use the system to upload various evidence files. The user will see different menus according to the level set by the administrator. And the system is also fun for administrators to clone the data if the year uses the same evidence file.",
       technologies: "Laravel(RESTful API ), Sanctum, MySQL, Vue, Vuetify",
       repo: "",
       images: [
@@ -76,7 +76,7 @@ export default [
    {
       id: UUID.generate(),
       title: "Hi Chick Game",
-      detail: "The game presses the button according to the color, when pressed the egg will start cracking until finally a chick appears.",
+      detail: "The game presses the button according to the color, when pressed the egg will start cracking until finally a chick appears. This is a work made for display at the CS Fair that works with Hardware Arduino and Switch Arcade. Players can time their time in the order of 1 - 13. They can take a picture of themselves and have their name on the board. The event does not have a keyboard, the player has to use Speech Recognition in JavaScript to get the player's name via voice.",
       technologies: "Express, MongoDB, Vue",
       repo: "https://github.com/hifat/hi-chick",
       images: [
@@ -105,7 +105,7 @@ export default [
    {
       id: UUID.generate(),
       title: "Seniors club",
-      detail: "Web application for manage membership and activities of the seniors club Mea Khue.",
+      detail: "Web application for manage membership and activities of the seniors club Mea Khue. This work is part of a research project by the faculty of nursing which encourages the elderly to experiment with technology. Able to manage club members You can check the name of the event and have chart information about the members of the club.",
       technologies: "Laravel, MySQL, Bootstrap, JQuery",
       repo: "",
       images: [
@@ -139,7 +139,7 @@ export default [
    {
       id: UUID.generate(),
       title: "Interactive E-Document",
-      detail: "Web application for Receive and send mail within the IT department.",
+      detail: "Web application for Receive and sending mail within the IT department. The pre-system problem, when an IT department receives a mail merge, has to be forwarded to each other within the department as the mail is forwarded indefinitely so it doesn't know who the mail is now. This system will help track mail. Users must log into the system every time the mail is forwarded to others.",
       technologies: "Laravel, MySQL, Bootstrap, JQuery",
       repo: "",
       images: [
@@ -168,7 +168,7 @@ export default [
    {
       id: UUID.generate(),
       title: "Basic Musical",
-      detail: "Web application for learning the basics of music.",
+      detail: "Web application for learning the basics of music. There are various content on the web on the basics of music theory. There are keys to play chords for guitar, piano, bass instruments and multiple choice exercises. which the system will record scores for each user And admins can add articles to the backend management system.",
       technologies: "PHP, MySQL, JQuery, Bootstrap",
       repo: "",
       images: [
